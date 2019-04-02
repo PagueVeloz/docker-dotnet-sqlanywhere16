@@ -41,3 +41,5 @@ RUN set -xe \
 ENV LD_LIBRARY_PATH=/opt/sqlanywhere16/lib64
 ENV SQLANY16=/opt/sqlanywhere16
 ENV PATH=$SQLANY16/bin64:${PATH:-}
+ENV TZ=America/Sao_Paulo
+
