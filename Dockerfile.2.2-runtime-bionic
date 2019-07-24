@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2-runtime-bionic as base
+FROM microsoft/dotnet:2.2-runtime-bionic as base
 
 WORKDIR /tmp
 
