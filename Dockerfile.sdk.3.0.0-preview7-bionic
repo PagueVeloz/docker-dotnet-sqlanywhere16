@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0.0-preview7-bionic as base
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0.100-preview7-bionic as base
 
 WORKDIR /tmp
 
